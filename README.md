@@ -79,6 +79,3 @@ This project uses the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/
 - `@st.cache_data` is used throughout so the (expensive) data loading, tag building, and similarity matrix computation only run once per session rather than on every click.
 - No external API calls are made — there are no movie posters, since everything runs on the two local CSVs.
 
-## License
-
-Feel free to use this project for learning purposes.
